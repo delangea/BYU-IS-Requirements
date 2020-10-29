@@ -1,0 +1,180 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2rem;
+    background-color: #333333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: block;
+
+}
+
+h1 {
+    font-size: 5vw;
+    padding: 2rem;
+    border: 2px solid white;
+}
+
+h1 p {
+    font-size: 3vw;
+}
+
+h1,
+h1 p {
+    font-family: 'Playfair Display', serif;
+    background-color: navy;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700px;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    background-color: white;
+    padding: 2rem 5rem;
+    flex-wrap: wrap;
+    max-width: 50rem;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+main .description {
+    display: block;
+    flex: 1 0 225px;
+    border: 5px solid #333333;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: lightgrey;
+}
+
+.description h2 {
+    color: navy;
+    font-weight: bolder;
+    font-size: 1.9rem;
+}
+
+.description span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    text-decoration: none;
+    background-color: white;
+    color: navy;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    border: 2px solid navy;
+    border-radius: 3px;
+    padding: 9px;
+    transition-property: color, background-color, border;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: navy;
+    font-weight: bolder;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.description span p {
+    text-align: center;
+}
+
+main .form {
+    border: 5px solid navy;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+    color: #333333;
+}
+
+.form .inner {
+    padding: 2rem;
+    border: 5px solid navy;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+div .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-calculate {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    border: 2px solid #333333;
+    border-radius: 3px;
+    padding: 9px;
+    transition-property: color, background-color, border;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    text-transform: uppercase;
+}
+
+.button-calculate:hover {
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 3px;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.button-reset {
+    text-decoration: none;
+    background-color: white;
+    color: navy;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid navy;
+    border-radius: 2px;
+    transition-property: color, background-color, border;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+.button-reset:hover {
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: navy;
+    font-weight: bolder;
+}
